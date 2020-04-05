@@ -1,0 +1,18 @@
+Anna:
+  good: [1, 0]
+  bad: [0, 0]
+Ádi:
+  good: [1, 0]
+  bad: [0, 0]
+Bence:
+  good: [0, 0]
+  bad: [0, 0]
+Marci:
+  good: [0, 0]
+  bad: [0, 1]
+Peti:
+  good: [0, 0]
+  bad: [0, 1]
+Lentner:
+  good: [0, 0]
+  bad: [0, 0]
