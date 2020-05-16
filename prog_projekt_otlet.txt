@@ -1,0 +1,11 @@
+Időjárási adatok vizualizációja
+
+Adatok forrása:
+A KSH adatbázisából töltjük le az adatokat havi rendszerességgel. (http://www.ksh.hu/stadat_evkozi_5)
+Havi közép-, minimális- és maximális hőmérséklet, csapadékos napok száma, lehullott csapadék(mm), szeles napok száma egy hónapban.
+Az ország 11 városából van adatunk: Budapest, Debrecen, Győr, Kecskemét, Kékestető, Miskolc, Nyíregyháza, Pécs, Siófok, Szeged, Szombathely. 
+A kódunk minden hónapban lescrape-eli az adatokat és elmenti egy spreadsheet-be. 
+A spreadsheet-ből a kódunk betölti az adatot és vizualizálja. Két/három vizualizációt tervezünk készíteni. Az első egy térkép, amelyen ábrázoljuk a helyi adatokat a legutolsó hónap alapján. A második egy barchart, amin az adatok idősorát tervezzük bemutatni.
+A github pages-t tervezzük használni hogy a kódot adott időközönként automatikusan futtassuk. 
+
+Tervben van még: előrejelző modell építése
